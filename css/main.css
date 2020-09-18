@@ -7,14 +7,16 @@
   border: 1px dashed blue;
   border-radius: 10px;
   text-decoration: none;
-  color: #757575;
+  color: black;
   text-align: center;
+  transition: transform 250ms cubic-bezier(0.47, 0, 0.745, 0.715),
+    background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .link:hover,
 .link:focus {
   border: 1px solid rgb(166, 166, 245);
-  background-color: rgb(247, 213, 213);
-  font-weight: 700;
+  background-color: rgb(213, 233, 247);
   outline: none;
+  transform: translate(10px) scale(1.05);
 }
