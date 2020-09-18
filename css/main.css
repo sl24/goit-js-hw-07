@@ -1,0 +1,20 @@
+.link {
+  display: block;
+  width: 100px;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(243, 239, 239);
+  border: 1px dashed blue;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #757575;
+  text-align: center;
+}
+
+.link:hover,
+.link:focus {
+  border: 1px solid rgb(166, 166, 245);
+  background-color: rgb(247, 213, 213);
+  font-weight: 700;
+  outline: none;
+}
