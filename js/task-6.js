@@ -8,7 +8,7 @@ const inputRef = document.querySelector('#validation-input');
 const validLength = Number(inputRef.dataset.length);
 
 // создаем функцию для сравнения количества введенных симоволов с нужным нам значением
-const makeValidation = inputRef.addEventListener('change', () => {
+const makeValidation = inputRef.addEventListener('blur', () => {
   if (inputRef.value.length === validLength) {
     inputRef.classList.add('valid');
     inputRef.classList.remove('invalid');
