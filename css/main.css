@@ -35,3 +35,16 @@
 #gallery img:not(last-child) {
   margin-right: 20px;
 }
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
